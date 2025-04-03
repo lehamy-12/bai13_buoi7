@@ -48,6 +48,7 @@ body{
             "aside1 aside2"
             "footer footer";
         grid-template-columns: 1fr 1fr;
+        font-size:16px;
     }
 }
 @media (max-width: 600px) {
@@ -59,5 +60,6 @@ body{
             "aside2"
             "footer";
         grid-template-columns: 1fr;
+        font-size:14px;
     }
 }
